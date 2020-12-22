@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(0, 0, 0);
+}
+.conte{
+    height: 510px;
+    width: 25%;
+    box-shadow:0 0 7px rgb(255, 0, 200) ;
+    margin: 120px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+    border-color: rgb(224, 135, 0);
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .stromtroper img{
+    height: 330px;
+    width: 230px;
+}
+.conte .stromtroper{
+     background-color: rgb(98, 26, 100);
+}
+.conte .iron-man{
+    background-color: #400250;
+}
+.conte .spider-man{
+    background-color:#f30bd425;
+}
+.conte .iron-man img{
+    height: 330px;
+    width: 230px;
+}
+.conte .spider-man img{
+    height: 330px;
+    width: 220px;
+}
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blanchedalmond;
+}
+.box-precio{
+    width: 80px;
+}
+ .precio1{
+    color: red;
+    font-size: .8em;
+}
+.precio .precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: #555;
+}
+
+@media (max-width:320px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+@media (max-width:600px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:700px)
+{
+    .conte{
+        width: 80%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:900px)
+{
+    .conte{
+        width: 40%;
+        margin: 30px 20px;
+    }
+}
+
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo 
+{
+    position: relative;
+    max-width: 130px;
+}
+
+header ul 
+{
+    position: relative;
+    display: flex;
+}
+
+header ul li
+{
+    list-style: none;  
+}
+
+header ul li a
+{
+    display: inline-block;
+    color: rgb(253, 253, 253);
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.hom
+{
+    color: #fff !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #6b0a74;
+  position: relative;
+  border: 2px solid #ffffff;
+  outline: 1px solid;
+  outline-color: rgba(255, 0, 234, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hom:hover
+{
+    box-shadow: inset 0 0 20px rgb(255, 255, 255), 0 0 20px rgba(49, 138, 172, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+  border-shadow: 
+}
+
+.don
+{
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #6b0a74;
+    position: relative;
+    border: 2px solid #ffffff;
+    outline: 1px solid;
+    outline-color: rgba(255, 0, 234, 0.4);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); 
+}
+
+.don:hover
+{
+    box-shadow: inset 0 0 20px rgb(255, 255, 255), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    border-shadow:  
+}

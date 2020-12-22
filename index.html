@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princess Veka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.ico">
+</head>
+<body class="all">
+    <section>
+        <div class="circle"></div>
+        <header>
+           <a href="index.html"><img src="logo.png" class="logo"></a> 
+           <ul>
+               <li><a class="hom" href="index.html">Home</a></li>
+               <li><a class="don" href="https://www.buymeacoffee.com/vekabby">Donate</a></li>
+           </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Accept the temptation<br><span>Princess Veka</span></h2>
+                <p>Welcome~ this is where you can buy my exclusive content (๑•﹏•) hehe.
+                You know you want to, so why keep wasting time reading? Go buy!</p>
+                <a href="Offers.html" class="picsAdvance">Buy Me</a>
+            </div>
+                <div class="imgBox">
+                    <img src="img1.jpeg" class="veka">
+                </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img1.jpeg" onclick="imgSlider('img1.jpeg');changeCircleColor('#9C12C5')"></li>
+            <li><img src="img2.jpeg" onclick="imgSlider('img2.jpeg');changeCircleColor('#3110D8')"></li>
+            <li><img src="img4.jpeg" onclick="imgSlider('img4.jpeg');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="https://twitter.com/CuteDomme_"><img src="tw.png"></a></li>
+            <li><a href="https://www.instagram.com/sweet_institution/"><img src="instagram.png"></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector(".veka").src = anything;
+    }
+
+    function changeCircleColor(color){
+        const circle = document.querySelector(".circle");
+        circle.style.background = color;
+    }
+    </script>
+</body>
+</html>
